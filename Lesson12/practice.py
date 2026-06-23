@@ -1,4 +1,5 @@
 # ============= LUYỆN TẬP OOP =============
+import oop
 # Bài tập 1:
     # Tạo class Animal gồm các thuộc tính: tên, loài
     # Viết 2 phương thức cho class Animal
@@ -6,6 +7,15 @@
     # Tạo class Dog kế thừa từ class Animal và có thêm thuộc tính: giống
     # Viết 1 phương thức kế thừa từ class Animal (có sửa đổi)
     # Viết 1 phương thức mới cho class Dog
+
+a1 = oop.Animal("Pororo", "penguin")
+a2 = oop.Animal("Loopy", "beaver")
+a1.display_info()
+a1.eat("fish")
+
+dog1 = oop.Dog("Buddy", "Dog", "Husky")
+dog1.display_info()
+print(dog1)
 
 # Bài tập 2:
     # Hãy xây dựng các lớp cha và lớp con như đã xác định. Lưu ý lớp cha có những đặc điểm sau:
@@ -22,3 +32,9 @@
 # Yêu cầu:
 # - Tạo class ở file oop.py
 # - Viết chương trình test tại file practice.py
+
+b1 = oop.Bicycle("Thống nhất", "Xanh", 500)
+c1 = oop.Car("Toyota", "Đen", 20000)
+
+b1.start()
+c1.start()
