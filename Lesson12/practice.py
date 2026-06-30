@@ -8,6 +8,10 @@ ptb37 = ['xUan tU', 'qUang Huy', 'DUc MiNh', 'MinH NhAt', 'hOANg BacH']
 # #Yêu cầu: Tạo một dictionary lưu trữ thông tin sinh viên với các khóa: name, age, và grade. 
 # Thực hiện các thao tác sau:
 # 1. Thêm sinh viên với thông tin name = "John", age = 22, và grade = "A".
+# 2. Cập nhật grade của sinh viên thành "A+".
+# 3. Xóa thông tin age của sinh viên.
+# 4. Kiểm tra xem name có trong dictionary không.
+
 
 # Bài 3: Đếm Số Lần Xuất Hiện Của Từ Trong Chuỗi
 # Yêu cầu: Viết chương trình nhận vào một chuỗi và trả về một dictionary đếm số lần xuất hiện của mỗi từ trong chuỗi.
