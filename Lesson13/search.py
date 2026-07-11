@@ -63,7 +63,7 @@ def measure_time(search_function, array, target):
     return end_time - start_time
 
 # Khởi tạo danh sách 
-random_list = [random.randint(0, 500000000) for _ in range(500000000)]
+random_list = [random.randint(0, 500000000) for _ in range(200000000)]
 target_value = random.choice(random_list)
 
 # Linear search
