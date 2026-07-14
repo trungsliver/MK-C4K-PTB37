@@ -1,0 +1,33 @@
+# Bài 1: Tạo Queue đơn giản
+# Yêu cầu:
+# 	- Tạo Queue
+# 	- Thêm các số: 10, 20, 30
+# 	- Lấy ra 1 phần tử
+# 	- In Queue
+
+# Bài 2: Mô phỏng hàng đợi học sinh xếp hàng ở canteen
+# Yêu cầu:
+# 	- Danh sách học sinh: ["Nam", "Lan", "Minh"]
+# 	- Phục vụ từng học sinh theo thứ tự
+
+# Bài 3: Mô phỏng máy in (Printer Queue)
+# Yêu cầu:
+# 	- Có danh sách tài liệu cần in
+# 	- In lần lượt từng tài liệu
+
+# Bài 4: Mô phỏng hệ thống hàng đợi khách hàng (OOP)
+# Giả sử bạn đang mô phỏng một hàng đợi khách hàng tại một siêu thị. 
+# Mỗi khách hàng có một số nhận dạng duy nhất. 
+# Viết chương trình sử dụng queue để quản lý khách hàng vào hàng đợi và phục vụ khách hàng.
+# Gợi ý: cần 3 phương thức
+#     1. arrive: thêm khách hàng vào hàng đợi
+#     2. serve: phục vụ khách hàng đầu tiên trong hàng đợi
+#     3. waiting: số lượng khách hàng đang chờ
+
+
+# Bài 5: Mô phỏng hệ thống nghe nhạc MP3 (OOP)
+# Yêu cầu chức năng: 
+# 	- Thêm bài hát vào playlist (next up - bài hát phát kế tiếp)
+# 	- Kiểm tra playlist (hiển thị các bài trong playlist)
+# 	- Nghe bài kế tiếp
+# 	- Bỏ qua bài hát (skip)
